@@ -1,0 +1,30 @@
+---
+title: "Project Proposal"
+author: "Lynn Bi"
+date: "November 19, 2026"
+format: html
+---
+
+## Proposal 1
+
+- **Research question: Among singleton live births in the United States,** **how is maternal gestational diabetes associated with neonatal outcomes, including infant birthweight, preterm birth and NICU admission?**
+
+- **Study Population:** The study population will be singleton live births in the United States that are recorded in the 2025 NCHS Natality database. The unit of analysis will be an individual live-birth record.
+
+- **Exposure:** The exposure is gestational diabetes, measured using **`RF_GDIAB`** and coded as **yes** (**`Y`**) or **no** (**`N`**)
+
+- **Outcome:** The outcomes I will be assessing include preterm birth, a categorical variable coded yes (`Y`) if gestational age is less than 37 completed weeks and no (**`N`**) otherwise. Other outcomes include **`AB_NICU`**, which is coded yes (**`Y`**) if the infant was admitted to the NICU and no (**`N`**) otherwise. I will also look at **`DBWT`**, birthweight in grams.
+
+- **Potential confounders:** I plan to adjust for maternal age, pre-pregnancy body mass index, and parity. I will also adjust for maternal race/ethnicity, education, and prenatal smoking, which also may be confounders in the relationship between between gestational diabetes and adverse neonatal outcomes.
+
+## Proposal 2
+
+- **Research question: How do waterborne disease outbreaks reported in the CDC surveillance data differ across US regions and decades?**
+
+- **Study Population:** The study population will be outbreak events in the CDC foodborne and waterborne disease outbreak surveillance data. The unit of analysis is a single reported outbreak.
+
+- **Exposure:** The exposure I will be assessing will be the region of the reporting state and the decade of the outbreak.
+
+- **Outcome:** The outcomes I will be assessing will be the number of outbreaks, outbreak size and severity (e.g. number of hospitalizations, deaths, etc). One of the results I plan to show is a statistical map of event locations.
+
+- **Potential confounders:** The main confounder I plan to adjust for will be population size (e.g. use population-adjusted rates).
